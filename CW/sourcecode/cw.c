@@ -166,7 +166,6 @@ int redo(struct node **list)
 
 // Used to delete all the nodes infront of the pointer node
 // in the doubly linked list
-// BROKEN --------------------
 void deleteAfter()
 {
   if (pointer -> next != NULL)
