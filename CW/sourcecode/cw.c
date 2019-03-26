@@ -126,6 +126,8 @@ void addToHistory(struct history **historyNodes, char* board, char type)
     temp -> type = type;
 
     current -> next = temp;
+
+    printf("size of board %zu\nsize of next %zu\nsize of type %zu\nsize of whole node %zu \n", sizeof(temp->board), sizeof(temp->next), sizeof(temp->type), sizeof(temp));
   }
 }
 
